@@ -57,10 +57,10 @@ function draw() {
       if (i != j)
         particles[j].string(particles[i].pos)
     }
-    particles[i].fall()
     particles[i].string({
       x: mouseX,
       y: mouseY
     })
+    particles[i].fall()
   }
 }
